@@ -1,4 +1,4 @@
-// server-side Node.js code (e.g., index.js)
+// server-side Node.js code to connect to an ec2 instance running the ldap server
 const express = require('express');
 const { exec } = require('child_process'); // Only use on the server
 const cors = require('cors'); // Add cors for CORS handling
