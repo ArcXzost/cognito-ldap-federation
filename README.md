@@ -1,4 +1,4 @@
-# Identity Management in Cloud
+# Identity Federation
 
 The project explains how a Federated Identity Mangement System works. It explores the integration of various authentication and access management technologies, including Google OAuth, AWS Cognito, and OpenLDAP.
 
