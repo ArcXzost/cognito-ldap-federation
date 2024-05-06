@@ -31,7 +31,7 @@ app.get('/check-admin', (req, res) => {
 //     return res.status(401).send('Unauthorized');
 //   }
 
-  const privateKeyPath = '"Shield.pem"';
+  const privateKeyPath = '"Shield.pem"'; //Replace with your private key
   const instancePublicIp = '44.202.139.79'; // Replace this with your EC2 instance's public IP address
   const ldapsearchCommand = `ldapsearch -x -LLL uid=${uid} -b "ou=Admin,dc=iiitg,dc=ac,dc=in" | grep 'dn'`;
 
