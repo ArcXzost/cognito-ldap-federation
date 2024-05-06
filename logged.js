@@ -11,10 +11,10 @@ async function handleCallback() {
         console.error('Authorization code not found');
         return;
     }
-  
-    const clientId = '424864705320-thcgnlh7cfchmvumtoi833qiqha61r19.apps.googleusercontent.com';
-    const clientSecret = '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';
-    const redirectUri = 'http://127.0.0.1:5500/logged.html';
+    
+    const clientId = [ClientID];
+    const redirectUri = [RedirectURL];
+    const clientSecret = [ClientSecret];
     const tokenUrl = 'https://accounts.google.com/o/oauth2/token';
     const userInfoUrl = 'https://www.googleapis.com/oauth2/v1/userinfo';
     try {
