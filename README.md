@@ -34,7 +34,10 @@ OpenLDAP is an open-source LDAP (Lightweight Directory Access Protocol) implemen
    a. If the user is identified as an administrator, they are permitted to view four images on the website.
    
    b. If the user is identified as a student, they are allowed to view three images on the website.
+   
+## Sequence Diagram
 
+![IDFed](https://github.com/ArcXzost/cognito-ldap-federation/assets/96982138/dcb4ac18-3f98-4152-b43e-45514808603a)
 
 ## Observations
 
